@@ -1,0 +1,61 @@
+html {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: rgb(238, 161, 145);
+}
+
+.textlogin {
+    color: white;
+    font-size: xx-large;
+    font-weight: 500px;
+}
+
+.container {
+    position: absolute;
+    width: 450px;
+    height: 500px;
+    top: 15%;
+    left: 35%;
+    background-color: rgb(227, 143, 143);
+    text-align: center;
+    border-radius: 30px;
+    padding-top: 80px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+p [type=text],
+[type=password] {
+    width: 60%;
+    height: 60%;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 0 ridge;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 8px;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.Box1 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    width: 40%;
+    border: none;
+    border-radius: 30px;
+    padding: 9px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: rgb(108, 50, 19);
+}
